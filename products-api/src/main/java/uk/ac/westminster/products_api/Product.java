@@ -3,7 +3,21 @@ package uk.ac.westminster.products_api;
 public class Product {
 
     private Long id;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     private String name;
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
     private double price;
 
     //No argument Constructor
